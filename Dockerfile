@@ -1,4 +1,4 @@
-FROM ruby:2.7
+FROM ruby:3.0
 
 LABEL maintainer="cgspeck@gmail.com"
 
@@ -9,7 +9,7 @@ RUN apt-get -y update \
   sudo \
   && rm -rf /var/lib/apt/lists/*
 
-RUN gem install bundler -v 2.0.1
+RUN gem install bundler -v 2.2.16
 
 # throw errors if Gemfile has been modified since Gemfile.lock
 RUN bundle config --global frozen 1
