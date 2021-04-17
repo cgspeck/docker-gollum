@@ -54,15 +54,13 @@ GEM
       nokogiri (>= 1.5.9)
     mime-types (1.25.1)
     mini_mime (1.1.0)
-    mini_portile2 (2.5.0)
     multi_json (1.15.0)
     mustache (0.99.8)
     mustache-sinatra (1.0.1)
       mustache (<= 0.99.8)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
-    nokogiri (1.11.3)
-      mini_portile2 (~> 2.5.0)
+    nokogiri (1.11.3-x86_64-linux)
       racc (~> 1.4)
     octicons (12.1.0)
       nokogiri (>= 1.6.3.1)
@@ -80,7 +78,7 @@ GEM
     rss (0.2.9)
       rexml
     ruby2_keywords (0.0.4)
-    rubypants (0.7.0)
+    rubypants (0.7.1)
     rugged (1.1.0)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
@@ -118,7 +116,7 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
-  ruby
+  x86_64-linux
 
 DEPENDENCIES
   github-linguist (~> 7.14)
@@ -126,4 +124,4 @@ DEPENDENCIES
   org-ruby (~> 0.9.12)
 
 BUNDLED WITH
-   2.0.1
+   2.2.16
