@@ -28,7 +28,7 @@ ENV TARGET_DIR=/wiki
 ENV PUID=1000
 ENV PGID=1000
 
-ENV GOLLUM_OPTIONS="--h1-title --allow-uploads"
+ENV GOLLUM_OPTIONS="--h1-title --allow-uploads page"
 ENV GOLLUM_AUTHOR_USERNAME="Gollum User"
 ENV GOLLUM_AUTHOR_EMAIL="gollum@example.org"
 EXPOSE 4567

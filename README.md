@@ -39,13 +39,13 @@ Bring up a root terminal within the container.
 
 ## Parameters
 
-| Parameter                                      | Function                                                                                   |
-| ---------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| -e PUID=1000                                   | User ID                                                                                    |
-| -e PGID=1000                                   | Group ID                                                                                   |
-| -e GOLLUM_OPTIONS="--h1-title --allow-uploads" | Options to pass to Gollum, detailed [here](https://github.com/gollum/gollum#configuration) |
-| -e GOLLUM_AUTHOR_USERNAME="Gollum User"        | Username to put on the git commits                                                         |
-| -e GOLLUM_AUTHOR_EMAIL="gollum@example.org"    | Email to put on the git commits                                                            |
+| Parameter                                           | Function                                                                                   |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| -e PUID=1000                                        | User ID                                                                                    |
+| -e PGID=1000                                        | Group ID                                                                                   |
+| -e GOLLUM_OPTIONS="--h1-title --allow-uploads page" | Options to pass to Gollum, detailed [here](https://github.com/gollum/gollum#configuration) |
+| -e GOLLUM_AUTHOR_USERNAME="Gollum User"             | Username to put on the git commits                                                         |
+| -e GOLLUM_AUTHOR_EMAIL="gollum@example.org"         | Email to put on the git commits                                                            |
 
 ### User / Group Identifiers
 
