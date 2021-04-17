@@ -15,7 +15,7 @@ docker run \
     cgspeck/gollum:latest
 ```
 
-You can also add the following commands to the end of the run command to  change the way it behaves:
+You can also add the following commands to the end of the run command to change the way it behaves:
 
 **`console`**
 
@@ -27,26 +27,25 @@ Bring up a root terminal within the container.
 
 ## Ports
 
-Port | Function
---- | ---
-4567 | Gollum server
-
+| Port | Function      |
+| ---- | ------------- |
+| 4567 | Gollum server |
 
 ## Volumes
 
-Volume | Function
---- | ---
-`/wiki` | Git repository for this wiki
+| Volume  | Function                     |
+| ------- | ---------------------------- |
+| `/wiki` | Git repository for this wiki |
 
 ## Parameters
 
-Parameter | Function
---- | ---
--e PUID=1000 | User ID
--e PGID=1000 | Group ID
--e GOLLUM_OPTIONS="--h1-title --allow-uploads --live-preview" | Options to pass to Gollum, detailed [here](https://github.com/gollum/gollum#configuration)
--e GOLLUM_AUTHOR_USERNAME="Gollum User" | Username to put on the git commits
--e GOLLUM_AUTHOR_EMAIL="gollum@example.org" | Email to put on the git commits
+| Parameter                                           | Function                                                                                   |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| -e PUID=1000                                        | User ID                                                                                    |
+| -e PGID=1000                                        | Group ID                                                                                   |
+| -e GOLLUM_OPTIONS="--h1-title --allow-uploads page" | Options to pass to Gollum, detailed [here](https://github.com/gollum/gollum#configuration) |
+| -e GOLLUM_AUTHOR_USERNAME="Gollum User"             | Username to put on the git commits                                                         |
+| -e GOLLUM_AUTHOR_EMAIL="gollum@example.org"         | Email to put on the git commits                                                            |
 
 ### User / Group Identifiers
 
