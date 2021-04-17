@@ -1,4 +1,4 @@
-FROM ruby:2.6
+FROM ruby:2.7
 
 LABEL maintainer="cgspeck@gmail.com"
 
@@ -12,7 +12,7 @@ RUN apt-get -y update \
 RUN gem install bundler -v 2.0.1
 
 # throw errors if Gemfile has been modified since Gemfile.lock
-# RUN bundle config --global frozen 1
+RUN bundle config --global frozen 1
 
 WORKDIR /usr/src/app
 
