@@ -60,7 +60,7 @@ GEM
       mustache (<= 0.99.8)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
-    nokogiri (1.11.3-x86_64-linux)
+    nokogiri (1.11.4-x86_64-linux)
       racc (~> 1.4)
     octicons (12.1.0)
       nokogiri (>= 1.6.3.1)
